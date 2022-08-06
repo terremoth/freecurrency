@@ -2,8 +2,6 @@
 function getCurrency(base = 'USD', symbol = 'EUR') {
 
   let freeCurrencyUrlList = [
-    `https://api.exchangeratesapi.io/latest?base=${base}&symbols=${symbol}`,
-    `https://api.ratesapi.io/api/latest?base=${base}&symbols=${symbol}`,
     `https://api.exchangerate.host/latest?base=${base}&symbols=${symbol}`
   ];
 
